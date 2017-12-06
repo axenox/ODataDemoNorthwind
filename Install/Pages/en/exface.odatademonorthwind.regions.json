@@ -1,0 +1,19 @@
+{
+    "id": "0x074a80a0d91111e7ab260205857feb80",
+    "alias_with_namespace": "exface.odatademonorthwind.regions",
+    "menu_parent_page_alias": "exface.odatademonorthwind.odata-northwind-demo",
+    "menu_index": "0",
+    "menu_visible": true,
+    "name": "Regions",
+    "short_description": "",
+    "replaces_page_alias": null,
+    "contents": {
+        "object_alias": "exface.ODataDemoNorthwind.Region",
+        "widget_type": "DataTable",
+        "columns": [
+            {
+                "attribute_group_alias": "~ALL"
+            }
+        ]
+    }
+}
