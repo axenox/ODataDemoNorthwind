@@ -59,7 +59,7 @@
             "UID": "0x11e7d38f29f11574a3da0205857feb80",
             "APP": "0x11e7d40241e736e1a3da0205857feb80",
             "LABEL": "Northwind oData demo service v4",
-            "CONNECTOR": "exface\/UrlDataConnector\/DataConnectors\/ODataConnector.php",
+            "CONNECTOR": "exface\/UrlDataConnector\/DataConnectors\/OData4Connector.php",
             "CONFIG": "{\"url\":\"http:\/\/services.odata.org\/V4\/Northwind\/Northwind.svc\/\"}",
             "READONLY": "0",
             "ALIAS": "ODATA_NORTHWIND_V4",
@@ -78,8 +78,8 @@
             }
         ]
     },
-    "rows_on_page": null,
-    "row_offset": 0,
+    "rows_limit": null,
+    "rows_offset": 0,
     "sorters": [
         {
             "attribute_alias": "CREATED_ON",

@@ -58,6 +58,22 @@
             "attribute_alias": "DEFAULT_EDITOR_UXON"
         },
         {
+            "name": "COPY_WITH_RELATED_OBJECT",
+            "attribute_alias": "COPY_WITH_RELATED_OBJECT"
+        },
+        {
+            "name": "DELETE_WITH_RELATED_OBJECT",
+            "attribute_alias": "DELETE_WITH_RELATED_OBJECT"
+        },
+        {
+            "name": "DEFAULT_DISPLAY_UXON",
+            "attribute_alias": "DEFAULT_DISPLAY_UXON"
+        },
+        {
+            "name": "COMMENTS",
+            "attribute_alias": "COMMENTS"
+        },
+        {
             "name": "LABEL",
             "attribute_alias": "LABEL"
         },
@@ -158,6 +174,10 @@
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
             "DEFAULT_EDITOR_UXON": null,
+            "COPY_WITH_RELATED_OBJECT": null,
+            "DELETE_WITH_RELATED_OBJECT": null,
+            "DEFAULT_DISPLAY_UXON": null,
+            "COMMENTS": null,
             "LABEL": "Territory I D",
             "ALIAS": "TerritoryID",
             "DATATYPE": "0x30000000000000000000000000000000",
@@ -195,6 +215,10 @@
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
             "DEFAULT_EDITOR_UXON": null,
+            "COPY_WITH_RELATED_OBJECT": null,
+            "DELETE_WITH_RELATED_OBJECT": null,
+            "DEFAULT_DISPLAY_UXON": null,
+            "COMMENTS": null,
             "LABEL": "Territory Description",
             "ALIAS": "TerritoryDescription",
             "DATATYPE": "0x30000000000000000000000000000000",
@@ -232,6 +256,10 @@
             "WRITABLEFLAG": "1",
             "SYSTEMFLAG": "0",
             "DEFAULT_EDITOR_UXON": null,
+            "COPY_WITH_RELATED_OBJECT": null,
+            "DELETE_WITH_RELATED_OBJECT": "1",
+            "DEFAULT_DISPLAY_UXON": null,
+            "COMMENTS": null,
             "LABEL": "Region",
             "ALIAS": "Region",
             "DATATYPE": "0x30000000000000000000000000000000",
@@ -267,8 +295,8 @@
             }
         ]
     },
-    "rows_on_page": null,
-    "row_offset": 0,
+    "rows_limit": null,
+    "rows_offset": 0,
     "sorters": [
         {
             "attribute_alias": "CREATED_ON",

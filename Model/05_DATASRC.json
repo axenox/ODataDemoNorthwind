@@ -57,13 +57,13 @@
     "rows": [
         {
             "CREATED_ON": "2017-11-27 16:24:38",
-            "MODIFIED_ON": "2017-11-28 06:24:03",
+            "MODIFIED_ON": "2018-11-23 15:21:23",
             "CREATED_BY_USER": "0x31000000000000000000000000000000",
             "MODIFIED_BY_USER": "0x31000000000000000000000000000000",
             "UID": "0x11e7d38f4fc09f29a3da0205857feb80",
             "APP": "0x11e7d40241e736e1a3da0205857feb80",
             "DEFAULT_CONNECTION": "0x11e7d38f29f11574a3da0205857feb80",
-            "DEFAULT_QUERY_BUILDER": "exface\/UrlDataConnector\/QueryBuilders\/ODataJsonUrlBuilder.php",
+            "DEFAULT_QUERY_BUILDER": "exface\/UrlDataConnector\/QueryBuilders\/OData4JsonUrlBuilder.php",
             "READABLE_FLAG": "1",
             "WRITABLE_FLAG": "1",
             "BASE_OBJECT": "",
@@ -83,8 +83,8 @@
             }
         ]
     },
-    "rows_on_page": null,
-    "row_offset": 0,
+    "rows_limit": null,
+    "rows_offset": 0,
     "sorters": [
         {
             "attribute_alias": "CREATED_ON",
