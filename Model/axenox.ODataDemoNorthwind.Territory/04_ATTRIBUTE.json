@@ -74,8 +74,12 @@
             "attribute_alias": "COMMENTS"
         },
         {
-            "name": "LABEL",
-            "attribute_alias": "LABEL"
+            "name": "NAME",
+            "attribute_alias": "NAME"
+        },
+        {
+            "name": "RELATION_CARDINALITY",
+            "attribute_alias": "RELATION_CARDINALITY"
         },
         {
             "name": "ALIAS",
@@ -178,7 +182,8 @@
             "DELETE_WITH_RELATED_OBJECT": null,
             "DEFAULT_DISPLAY_UXON": null,
             "COMMENTS": "",
-            "LABEL": "Territory I D",
+            "NAME": "Territory I D",
+            "RELATION_CARDINALITY": "",
             "ALIAS": "TerritoryID",
             "DATATYPE": "0x30000000000000000000000000000000",
             "DATA_ADDRESS": "TerritoryID",
@@ -219,7 +224,8 @@
             "DELETE_WITH_RELATED_OBJECT": null,
             "DEFAULT_DISPLAY_UXON": null,
             "COMMENTS": "",
-            "LABEL": "Territory Description",
+            "NAME": "Territory Description",
+            "RELATION_CARDINALITY": "",
             "ALIAS": "TerritoryDescription",
             "DATATYPE": "0x30000000000000000000000000000000",
             "DATA_ADDRESS": "TerritoryDescription",
@@ -260,7 +266,8 @@
             "DELETE_WITH_RELATED_OBJECT": "1",
             "DEFAULT_DISPLAY_UXON": null,
             "COMMENTS": "",
-            "LABEL": "Region",
+            "NAME": "Region",
+            "RELATION_CARDINALITY": "",
             "ALIAS": "Region",
             "DATATYPE": "0x30000000000000000000000000000000",
             "DATA_ADDRESS": "RegionID",
